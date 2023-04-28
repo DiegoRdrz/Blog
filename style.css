@@ -1,0 +1,99 @@
+/*-----------------------------------------------------------------------------------------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+nav {
+    background-color: #397671; /* Color de fondo de la barra */
+    color: #fff; /* Color de texto */
+    display: flex;
+    align-items: center;
+    height: 50px; /* Altura de la barra */
+    padding: 0 20px; /* Espaciado horizontal */ 
+}
+
+nav a {
+    color: #fff; /* Color de texto de los enlaces */
+    text-decoration: none; /* Quitar subrayado de los enlaces */
+    margin-right: 20px; /* Espaciado entre los enlaces */
+    font-weight: 600; 
+}
+
+nav a:hover {
+    color: #ff0; /* Color de texto al pasar el mouse */
+}
+
+nav img {
+    height: 30px; /* Altura del icono */
+    margin-right: 10px; /* Espaciado entre el icono y el título */
+}
+
+nav h1 {
+    margin: 0; /* Quitar margen para el título */
+    font-size: 20px; /* Tamaño del texto del título */
+    
+}
+
+nav .right {
+    margin-left: auto; /* Empujar los botones a la derecha */
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+header {
+    background-color: #E5D9CC; /* Cambie este valor al color deseado para el fondo del banner */
+    color: #397671; /* Cambie este valor al color deseado para el texto del banner */
+    padding: 10px;
+    margin-top: 25px; /* Cambie este valor según la cantidad de separación que desee */    
+  }
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 125px;
+    flex-direction: row;
+
+  }
+  
+  .banner h1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 200px; /* Cambie este valor según el ancho deseado */
+  }
+
+  .banner h1 span {
+    font-size: 100px; /* Cambie este valor para ajustar el tamaño del "1" */
+  }
+
+  .verde {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 600px;
+    text-transform: uppercase;
+    width: 400px;
+  }
+  
+  .negro {
+    font-size: 16px;
+    margin-right: 600px;
+    margin-left: 60px;
+    width: 600px;
+    color: black;
+
+  }
+  
+  .rectangulo {
+    background-color: #397671; /* Cambie este valor al color deseado para el rectángulo */
+    width: 250px;
+    height: 100px;
+    border-radius: 10px; /* Cambie este valor para ajustar el radio de las esquinas */
+    margin-left: auto; /* Mueve el cuadro a la derecha del todo */
+  } 
+
+  .banner-title {
+    width: 200px;
+    margin-right: 200px;
+  }
+  
