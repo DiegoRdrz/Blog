@@ -4,110 +4,185 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
-nav {
-    background-color: #397671; /* Color de fondo de la barra */
-    color: #fff; /* Color de texto */
+@media screen and (min-width: 1024px) {
+  nav {
+    background-color: #397671;
+    color: #fff;
     display: flex;
     align-items: center;
-    height: 50px; /* Altura de la barra */
-    padding: 0 20px; /* Espaciado horizontal */ 
-}
+    height: 0.65%;
+    padding: 0.4% ;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  .nav-imagen {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight: 600;
+    width: 3%;
+  }
+  
+  nav a:hover {
+    color: #ff0;
+  }
+  
+  nav img {
+    width: 80%; 
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 170%;
+  }
+  
+  nav .nav-right {
+    margin-left: auto;
+  }
+  
 
-nav a {
-    color: #fff; /* Color de texto de los enlaces */
-    text-decoration: none; /* Quitar subrayado de los enlaces */
-    margin-right: 20px; /* Espaciado entre los enlaces */
-    font-weight: 600; 
-}
-
-nav a:hover {
-    color: #ff0; /* Color de texto al pasar el mouse */
-}
-
-nav img {
-    height: 30px; /* Altura del icono */
-    margin-right: 10px; /* Espaciado entre el icono y el título */
-}
-
-nav h1 {
-    margin: 0; /* Quitar margen para el título */
-    font-size: 20px; /* Tamaño del texto del título */
-    
-}
-
-nav .right {
-    margin-left: auto; /* Empujar los botones a la derecha */
-}
-
-/*-----------------------------------------------------------------------------------------------------------*/
-header {
+  /*-----------------------------------------------------------------------------------------------------------*/
+  header {
     background-color: #E5D9CC; 
     color: #397671; 
-    padding: 10px;
-    margin-top: 25px; 
+    padding: 0.73%;
+    margin-top: 1.83%; 
   }
   
   .banner {
     display: flex;
     align-items: center;
-    margin-left: 70px;
-    margin-right: 125px;
+    margin-left: 5.1%;
+    margin-right: 9.14%;
     flex-direction: row;
-
   }
   
   .banner h1 {
     display: flex;
     align-items: center;
     margin: 0;
-    width: 200px; /* Cambie este valor según el ancho deseado */
+    width: 14.6%; /* Cambie este valor según el ancho deseado */
   }
 
   .banner h1 span {
-    font-size: 100px; /* Cambie este valor para ajustar el tamaño del "1" */
+    font-size: 310%; /* Cambie este valor para ajustar el tamaño del "1" */
   }
 
-  .banner-texto h4{
-    font-size: 16px;
-    margin-bottom: 0px;
-    margin-left: 5px;
-    margin-right: 600px;
-    text-transform: uppercase;
-    width: 400px;
-    padding-bottom: 0px;
-  }
   
   .banner h4 {
-    font-size: 16px;
+    font-size: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
-    margin-right: 600px;
-    margin-left: 60px;
-    width: 600px;
+    margin-right: 43.8%;
+    margin-left: 55px;
+    width: 200%;
     color: black;
   }
   
-  .rectangulo {
+  .banner-rectangulo {
     background-color: #397671; /* Cambie este valor al color deseado para el rectángulo */
-    width: 250px;
-    height: 100px;
-    border-radius: 10px; /* Cambie este valor para ajustar el radio de las esquinas */
+    width: 25.22%;
+    height: 120px;
+    border-radius: 20px; /* Cambie este valor para ajustar el radio de las esquinas */
     margin-left: auto; /* Mueve el cuadro a la derecha del todo */
   } 
   .banner-title {
-    width: 200px;
-    margin-right: 200px;
+    width: 14.6%;
+    margin-right: 14.6%;
   }
-  .rectangulo-texto h6{
+  .banner-rectangulo-texto h6{
     color: white;
-    margin-bottom: 0px;
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 5%;
   }
-  .rectangulo-fecha h2{
+  .banner-rectangulo-fecha h2{
     color: white;
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 15px;
+  }
+
+  /*-----------------------------------------------------------------------------------------------------------*/
+
+  .container {
+    padding: 0.73%;
+    margin-top: 1.83%; 
+    margin: 0;
+    display: flex;
+  }
+  .container-titulo{
+    background-color: #397671; 
+    border-radius: 10px;
+    display: flex;
+    margin-left: 1%;
+    height: 45px;
+    width: 90%;
+  }
+  .container-titulo h1 {
+    color: white;
+    font-size: 160%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 2%;
+
   }
   
+  .container-ponentes {
+    background-color: #CEDBD9;
+    display: flex;
+    margin-top: 5%;
+    margin-left: 1%;
+    width: 90%;
+  }
+  
+  .container-ponentes div {
+    color: black;
+    font-size: 50%;
+    width: 30%;
+    height: 45px;
+    text-align: center;
+    align-items: center;
+    margin-left: 2%;
+  }
+  
+  
+  .container-ponentes img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .container-ponentes p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .container-imagen {
+    display: flex;
+    width: 100%;
+  }
+  
+  .container-imagen img {
+    display: flex;
+    width: 100%;
+    height: 10%;
+  }
+  
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 767px) {
+  /* Estilos para dispositivos móviles con ancho menor o igual a 767px */
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Estilos para tablets con ancho entre 768px y 1023px */
+}
   
