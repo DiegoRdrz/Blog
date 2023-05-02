@@ -13,11 +13,26 @@
   <nav class="nav">
     <a class="nav-imagen" href="#"><img src="imagenes/imagen.png" alt="Imagen"></a>
     <h1>MENTORWISE</h1>
+    <div class="hamburger-menu" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
     <div class="nav-right">
-      <a href="#">Evento</a>
-      <a href="#">Agenda</a>
-      <a href="#">Ponencias</a>
-      <a href="#">Acerca de</a>
+      <ul class="nav-items">
+        <li>
+          <a href="#">Evento</a>
+        </li>
+        <li>
+          <a href="#">Agenda</a>
+        </li>
+        <li>
+          <a href="#">Ponencias</a>
+        </li>
+        <li>
+          <a href="#">Acerca de</a>
+        </li>
+      </ul>
     </div>
   </nav>
   <header>
@@ -183,5 +198,6 @@
     </div>
   </footer>
 
+  <script src="./app.js"></script>
 </body>
 </html>

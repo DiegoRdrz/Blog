@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    box-sizing: border-box;
 }
 /*-----------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1024px) {
@@ -416,7 +417,7 @@ body {
     margin-bottom: 0px;
     margin-right: 43.8%;
     margin-left: 55px;
-    width: 200%;
+    width: 100%;
     color: black;
   }
   
@@ -673,12 +674,14 @@ body {
 /*-----------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 767px) {
   nav {
+    width: 100%;
     background-color: #397671;
     color: #fff;
     display: flex ;
     align-items: center;
-    height: 0.65%;
-    padding: 0.4% ;
+    height: 40px;
+    justify-content: space-between;
+    position: relative;
   }
   
   nav a {
@@ -711,54 +714,103 @@ body {
   }
   
   nav .nav-right {
-    margin-left: auto;
+    background-color: #397671;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: none;
+    top: 40px;
+    z-index: 10;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+
+  }
+
+  nav .nav-right .nav-items{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+  }
+
+  nav .nav-right .nav-items li{
+    margin: 0rem 2rem 1rem .5rem;
+    border-bottom: 1px solid #CEDBD9;
+  }
+
+  nav .nav-right.active {
+    display: block;
   }
   
+  .hamburger-menu {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 1em;
+}
+
+.hamburger-menu span {
+  display: block;
+  height: 2px;
+  width: 25px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #ffffff;
+  border-radius: 3px;
+}
+
+.hamburger-menu span:nth-child(2) {
+  width: 20px;
+}
+
+.hamburger-menu span:last-child {
+  margin-bottom: 0;
+}
 
   /*-----------------------------------------------------------------------------------------------------------*/
   header {
-    background-color: #E5D9CC; 
     color: #397671; 
-    padding: 0.73%;
-    margin-top: 1.83%; 
+    margin-top: 1rem; 
   }
   
   .banner {
-    display: block;
-    align-items: center;
-    margin-left: 5.1%;
-    margin-right: 9.14%;
-    justify-content: center;
-  }
-  
-  .banner h1 {
+    width: 100%;
     display: flex;
-    align-items: center;
-    margin-left:33.3%; 
-    margin-right: 33.3%;
-    width: 14.6%; /* Cambie este valor según el ancho deseado */
+    flex-direction: column;
+    position: relative;
+  }
+  .banner .banner-title h1{
+    background-color: #E5D9CC; 
+    width: 100%;
+    padding: 5px 0px 5px 0px;
   }
 
-  .banner h1 span {
-    font-size: 310%; /* Cambie este valor para ajustar el tamaño del "1" */
+  .banner .banner-title h1 span{
+    font-size: 310%;
+    margin-left: 4rem ;
   }
-
+  .banner h1 {
+    width: 100%;
+    display: flex;
+    align-items: center; /* Cambie este valor según el ancho deseado */
+  }
   
   .banner h4 {
-    font-size: 100%;
+    position: absolute;
+    font-size: .7em;
+    text-align: center;
+    top: 0;
     margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 33.3%;
-    margin-left: 43%;
-    width: 200%;
-    color: black;
+    width: 100%;
+    color: rgb(88, 88, 88);
   }
   
   .banner-rectangulo {
     background-color: #397671; /* Cambie este valor al color deseado para el rectángulo */
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: 120px;
-    margin-left: 33.3%;
+    /* margin-left: 33.3%; */
     border-radius: 20px; /* Cambie este valor para ajustar el radio de las esquinas */
   } 
   .banner-title {
@@ -779,7 +831,8 @@ body {
 
   /*-----------------------------------------------------------------------------------------------------------*/
   .container{
-    display: flex;
+    display: grid;
+    place-items: center;
   }
   .container-body{
     width: 90%;
@@ -955,3 +1008,7 @@ body {
   }
 }
   
+
+/* *{
+  border: 1px solid red;
+} */
