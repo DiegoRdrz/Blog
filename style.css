@@ -4,7 +4,341 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+/*-----------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 1024px) {
+  nav {
+    background-color: #397671;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    height: 0.65%;
+    padding: 0.4% ;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  .nav-imagen {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight: 600;
+    width: 3%;
+  }
+  
+  nav a:hover {
+    color: #ff0;
+  }
+  
+  nav img {
+    width: 80%; 
+    border-radius: 50%;
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 170%;
+  }
+  
+  nav .nav-right {
+    margin-left: auto;
+  }
+  
+
+  /*-----------------------------------------------------------------------------------------------------------*/
+  header {
+    background-color: #E5D9CC; 
+    color: #397671; 
+    padding: 0.73%;
+    margin-top: 1.83%; 
+  }
+  
+  .banner {
+    display: flex;
+    align-items: center;
+    margin-left: 5.1%;
+    margin-right: 9.14%;
+    flex-direction: row;
+  }
+  
+  .banner h1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 14.6%; /* Cambie este valor según el ancho deseado */
+  }
+
+  .banner h1 span {
+    font-size: 310%; /* Cambie este valor para ajustar el tamaño del "1" */
+  }
+
+  
+  .banner h4 {
+    font-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 43.8%;
+    margin-left: 55px;
+    width: 200%;
+    color: black;
+  }
+  
+  .banner-rectangulo {
+    background-color: #397671; /* Cambie este valor al color deseado para el rectángulo */
+    width: 25.22%;
+    height: 120px;
+    border-radius: 20px; /* Cambie este valor para ajustar el radio de las esquinas */
+    margin-left: auto; /* Mueve el cuadro a la derecha del todo */
+  } 
+  .banner-title {
+    width: 14.6%;
+    margin-right: 14.6%;
+  }
+  .banner-rectangulo-texto h6{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 5%;
+  }
+  .banner-rectangulo-fecha h2{
+    color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+
+  /*-----------------------------------------------------------------------------------------------------------*/
+  .container{
+    display: flex;
+  }
+  .container-body{
+    width: 90%;
+  }
+  .container-arriba{
+    padding: 1%;
+    margin-top: 1.83%; 
+    margin: 0;
+    display: flex;
+    height: auto;
+
+  }
+  .container-arriba-izquierda{
+    display: block;
+    width: 60%;
+  }
+  .container-titulo{
+    background-color: #397671; 
+    border-radius: 10px;
+    display: flex;
+    margin-left: 1%;
+    height: 45px;
+    width: 100%;
+  }
+  .container-titulo h1 {
+    color: white;
+    font-size: 160%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin-left: 2%;
+
+  }
+  
+  .container-ponentes {
+    
+    display: flex;
+    margin-top: 5%;
+    margin-left: 1%;
+    width: 100%;
+  }
+  
+  .container-ponentes div {
+    background-color: #CEDBD9;
+    color: black;
+    border-radius: 10px;
+    font-size: 50%;
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 2%;
+  }
+  
+  
+  .container-ponentes img {
+    margin-top: 10%;
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .container-ponentes p {
+    font-size: 160%;
+    text-align: justify;
+    margin: 10%;
+  }
+  
+  .container-imagen {
+    display: flex;
+    width: 40%;
+    margin-left: 5%;
+  }
+  
+  .container-imagen img {
+    display: flex;
+    border-radius: 5%;
+    width: 100%;
+
+  }
+  .container-publicidad{
+    display: flex;
+    height: auto;
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 10%;
+
+  }
+  .container-publicidad a{
+    display: flex;
+    float: right;
+  }
+  .container-publicidad img{
+    display: flex;
+    float: right;
+    width: 100%;
+  }
+
+  .container-abajo{
+    display: flex;
+    width: 100%;
+    margin-left: 3%;
+    padding: 0px;
+    margin-right: 0px;
+  }
+
+  .container-abajo-izquierda{
+    width: 60%;
+    display: block;
+  }
+
+  .container-abajo-izquierda div{
+    border-radius: 10px;
+    height: auto;
+    margin-top: 2%;
+    background-color: #397671;
+    display: flex;
+    align-items: center;
+  }
+  .container-abajo-izquierda img{
+    margin: 2%;
+    border-radius: 10px;
+    width: 60%;
+    height: 150px;
+  }
+  
+  .container-abajo-izquierda p{
+    color: white;
+    margin-left: 3%;
+    border-radius: 10px;
+    width: 40%;
+    height: 10%;
+  }
+  .container-abajo-derecha{
+    align-items: center;
+    background-color: #397671;
+    color: white;
+    border-radius: 20px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 4%;
+    width: 40%;
+    height: auto;
+  }
+  .container-abajo-derecha p{
+    font-size: 80%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .container-abajo-derecha h1{
+    margin: 3%;
+  }
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+  footer {
+    display: flex;
+    align-items: flex-end;
+    padding: 0%;
+    background-color: #E5D9CC;
+    margin-bottom: 0%;
+    margin-top:1% ;
+    height: 90px;
+  }
+
+  .footer{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0%;
+
+  }
+  
+  .siguenos {
+    margin-bottom: 0%;
+    margin-left: 2%;
+    width: 33.3%;
+  }
+  
+  .siguenos img{
+    width: 6%;
+    height: auto;
+    margin-top: 0%;
+    margin-bottom:3%;
+  }
+  .siguenos h4{
+    margin-top: 0%;
+    margin-bottom: 4%;
+  }
+  .redes-sociales a {
+    margin-top: 0%;
+    margin-right: 10px;
+  }
+
+  
+  .copy {
+    text-align: center;
+    width:33.3%;
+    margin-bottom: 0%;
+
+  }
+  .copy p{
+    margin-bottom: 3%;
+  }
+  
+  .desarrollado {
+    align-items: end;
+    text-align: right;
+    width:33.3%;
+    margin-bottom: 0%;
+    margin-right:2%;
+  }
+  .desarrollado h4{
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .desarrollado p{
+    font-size: 70%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   nav {
     background-color: #397671;
     color: #fff;
@@ -336,13 +670,288 @@ body {
     margin-bottom: 3%;
   }
 }
-
 /*-----------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 767px) {
-  /* Estilos para dispositivos móviles con ancho menor o igual a 767px */
-}
+  nav {
+    background-color: #397671;
+    color: #fff;
+    display: flex ;
+    align-items: center;
+    height: 0.65%;
+    padding: 0.4% ;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+  }
+  .nav-imagen {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight: 600;
+    width: 3%;
+  }
+  
+  nav a:hover {
+    color: #ff0;
+  }
+  
+  nav img {
+    width: 80%; 
+    border-radius: 50%;
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-size: 170%;
+  }
+  
+  nav .nav-right {
+    margin-left: auto;
+  }
+  
+
+  /*-----------------------------------------------------------------------------------------------------------*/
+  header {
+    background-color: #E5D9CC; 
+    color: #397671; 
+    padding: 0.73%;
+    margin-top: 1.83%; 
+  }
+  
+  .banner {
+    display: block;
+    align-items: center;
+    margin-left: 5.1%;
+    margin-right: 9.14%;
+    justify-content: center;
+  }
+  
+  .banner h1 {
+    display: flex;
+    align-items: center;
+    margin-left:33.3%; 
+    margin-right: 33.3%;
+    width: 14.6%; /* Cambie este valor según el ancho deseado */
+  }
+
+  .banner h1 span {
+    font-size: 310%; /* Cambie este valor para ajustar el tamaño del "1" */
+  }
+
+  
+  .banner h4 {
+    font-size: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 33.3%;
+    margin-left: 43%;
+    width: 200%;
+    color: black;
+  }
+  
+  .banner-rectangulo {
+    background-color: #397671; /* Cambie este valor al color deseado para el rectángulo */
+    width: 100%;
+    height: 120px;
+    margin-left: 33.3%;
+    border-radius: 20px; /* Cambie este valor para ajustar el radio de las esquinas */
+  } 
+  .banner-title {
+    width: 100%;
+    margin-right: 14.6%;
+  }
+  .banner-rectangulo-texto h6{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 5%;
+  }
+  .banner-rectangulo-fecha h2{
+    color: white;
+    margin-top: 0px;
+    margin-left: 15px;
+  }
+
+  /*-----------------------------------------------------------------------------------------------------------*/
+  .container{
+    display: flex;
+  }
+  .container-body{
+    width: 90%;
+  }
+  .container-arriba{
+    padding: 1%;
+    margin-top: 1.83%; 
+    margin: 0;
+    display: flex;
+    height: auto;
+
+  }
+  .container-arriba-izquierda{
+    display: block;
+    width: 100%;
+  }
+  .container-titulo{
+    display: none;
+  }
+  .container-titulo h1 {
+    display: none;
+  }
+  
+  .container-ponentes {
+    
+    display: flex;
+    margin-top: 5%;
+    margin-left: 1%;
+    width: 100%;
+  }
+  
+  .container-ponentes div {
+    color: black;
+    border-radius: 10px;
+    font-size: 50%;
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 2%;
+  }
+  
+  
+  .container-ponentes img {
+    margin-top: 10%;
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+  }
+  
+  .container-ponentes p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 10%;
+  }
+  
+  .container-imagen {
+    display: none;
+  }
+  
+  .container-imagen img {
+    display: flex;
+    border-radius: 5%;
+    width: 100%;
+
+  }
+  .container-publicidad{
+    display: none ;
+  }
+  .container-publicidad a{
+    display: none;
+  }
+  .container-publicidad img{
+    display: none;
+
+  }
+
+  .container-abajo{
+    display: none;
+  }
+
+  .container-abajo-izquierda{
+    display: none;
+  }
+
+  .container-abajo-izquierda div{
+    display: none;
+  }
+  .container-abajo-izquierda img{
+    display: none;
+  }
+  
+  .container-abajo-izquierda p{
+    display: none;
+  }
+  .container-abajo-derecha{
+    display: none;
+  }
+  .container-abajo-derecha p{
+    display: none;
+  }
+  .container-abajo-derecha h1{
+    display: none;
+  }
+
 /*-----------------------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* Estilos para tablets con ancho entre 768px y 1023px */
+
+  footer {
+    display: flex;
+    align-items: flex-end;
+    padding: 0%;
+    background-color: #E5D9CC;
+    margin-bottom: 0%;
+    margin-top:1% ;
+    height: 90px;
+  }
+
+  .footer{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 0%;
+
+  }
+  
+  .siguenos {
+    margin-bottom: 0%;
+    margin-left: 2%;
+    width: 33.3%;
+  }
+  
+  .siguenos img{
+    width: 10%;
+    height: auto;
+    margin-top: 0%;
+    margin-bottom:3%;
+  }
+  .siguenos h4{
+    margin-top: 0%;
+    margin-bottom: 4%;
+  }
+  .redes-sociales a {
+    margin-top: 0%;
+    margin-right: 10px;
+  }
+
+  
+  .copy {
+    text-align: center;
+    width:33.3%;
+    margin-bottom: 0%;
+
+  }
+  .copy p{
+    margin-bottom: 3%;
+  }
+  
+  .desarrollado {
+    align-items: end;
+    text-align: right;
+    width:33.3%;
+    margin-bottom: 0%;
+    margin-right:2%;
+  }
+  .desarrollado h4{
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+  .desarrollado p{
+    font-size: 70%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+  }
 }
   
