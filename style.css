@@ -6,9 +6,42 @@
   font-family: 'Montserrat-Bold';
   src: url('Fuentes/Montserrat-Bold.ttf') format('truetype');
 }
-
+/*Fuente de titulos*/
 .nav h1{
   font-family: Montserrat-Bold, sans-serif;
+}
+
+.banner-title h1 small{
+  font-family: Montserrat-Bold, sans-serif;
+}
+.banner-title h4{
+  font-family: Montserrat-Bold, sans-serif;
+}
+.banner-rectangulo-fecha{
+  font-family: Montserrat-Bold, sans-serif;
+}
+.container-titulo{
+  font-family: Montserrat-Bold, sans-serif;
+}
+.container-ponentes h2{
+  font-family: Montserrat-Bold, sans-serif;
+}
+.container-abajo-derecha h1{
+  font-family: Montserrat-Bold, sans-serif;
+}
+
+/*Fuente de textos*/
+.container-ponentes p{
+  font-family: HelveticaNowDisplay-Regular, sans-serif;
+}
+.container-abajo-izquierda p{
+  font-family: HelveticaNowDisplay-Regular, sans-serif;
+}
+.container-abajo-derecha p{
+  font-family: HelveticaNowDisplay-Regular, sans-serif;
+}
+footer{
+  font-family: HelveticaNowDisplay-Regular, sans-serif;
 }
 
 
