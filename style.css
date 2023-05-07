@@ -29,6 +29,9 @@
 .container-abajo-derecha h1{
   font-family: Montserrat-Bold, sans-serif;
 }
+.mensaje p{
+  font-family: Montserrat-Bold, sans-serif;
+}
 
 /*Fuente de textos*/
 .container-ponentes p{
@@ -52,6 +55,40 @@ body {
   font-family: Arial, sans-serif;
   box-sizing: border-box;
 }
+
+.scroll-ponentes {
+  scroll-behavior: smooth;
+}
+.scroll-acerca{
+  scroll-behavior: smooth;
+}
+
+.mensaje{
+  background-color:#e5d9cc;
+  width: auto;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+}
+
+.mensaje p{
+  font-size: 300%;
+  
+}
+.mensaje button {
+  padding: 0.8rem 1.5rem;
+  background-color:#397671;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.mensaje button:hover {
+  background-color: #3e8e41;
+}
+
 
 
 
@@ -404,6 +441,9 @@ body {
     margin-top: 0%;
     margin-bottom: 3%;
   }
+
+
+  
 }
 /*-----------------------------------------------------------------------------------------------------------*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
