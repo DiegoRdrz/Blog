@@ -89,6 +89,60 @@ body {
   background-color: #3e8e41;
 }
 
+#textoReducido1{
+  max-height: 200px;
+  overflow: hidden;
+}
+
+#textoReducido1:target {
+  max-height: none;
+}
+
+#textoReducido2{
+  max-height: 200px;
+  overflow: hidden;
+}
+
+#textoReducido2:target {
+  max-height: none;
+}
+
+#textoReducido3{
+  max-height: 200px;
+  overflow: hidden;
+}
+
+#textoReducido3:target {
+  max-height: none;
+}
+
+#textoReducido4{
+  max-height: 160px;
+  overflow: hidden;
+}
+
+#textoReducido4:target {
+  max-height: none;
+}
+
+#textoReducido5{
+  max-height: 160px;
+  overflow: hidden;
+}
+
+#textoReducido5:target {
+  max-height: none;
+}
+a[href="#miDiv"]:target ~ #miDiv {
+  display: flex;
+}
+
+.ver-mas {
+  display: block; 
+  text-align: center; 
+  margin-top: 10px;
+} 
+
 
 
 
@@ -278,10 +332,10 @@ body {
 
   .container-ponentes img {
     margin-top: 10%;
-    width: 40%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 50%;
+    width: 60%;
+    height: 40%;
+    border-radius: 50px;
+    object-fit: cover;
   }
 
   .container-ponentes p {
@@ -300,6 +354,7 @@ body {
     display: flex;
     border-radius: 5%;
     width: 100%;
+    height: 480px;
   }
   .container-publicidad {
     display: flex;
@@ -363,10 +418,10 @@ body {
     margin-left: 5%;
     margin-right: 4%;
     width: 40%;
-    height: auto;
+    height: 450px;
   }
   .container-abajo-derecha p {
-    font-size: 80%;
+    font-size: 110%;
     margin-bottom: 5%;
     margin-left: 3%;
     margin-right: 3%;
@@ -446,7 +501,7 @@ body {
   
 }
 /*-----------------------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 767px) and (max-width: 1024px) {
   nav {
     width: 100%;
     background-color: #397671;
@@ -478,7 +533,7 @@ body {
   }
 
   nav img {
-    width: 80%;
+    width: 100%;
     border-radius: 50%;
   }
 
@@ -654,10 +709,10 @@ body {
 
   .container-ponentes img {
     margin-top: 10%;
-    width: 40%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 50%;
+    width: 60%;
+    height: 40%;
+    border-radius: 50px;
+    object-fit: cover;
   }
 
   .container-ponentes p {
@@ -848,7 +903,7 @@ body {
   }
 
   nav img {
-    width: 80%;
+    width: 140%;
     border-radius: 50%;
   }
 
@@ -1007,10 +1062,10 @@ body {
 
   .container-ponentes img {
     margin-top: 10%;
-    width: 40%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 50%;
+    width: 60%;
+    height: 40%;
+    border-radius: 50px;
+    object-fit: cover;
   }
 
   .container-ponentes p {
